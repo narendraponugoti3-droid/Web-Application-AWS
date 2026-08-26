@@ -1,0 +1,27 @@
+# Python (diagram generation)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Terraform, if IaC is added later
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Build output
+target/
+*.jar
+
+# Credentials - never commit
+.env
+*.env
+*.pem
+*.ppk
+credentials
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
